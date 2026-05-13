@@ -5,7 +5,7 @@
     <img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.bilibili.com%2Fx%2Frelation%2Fstat%3Fvmid%3D571556798&query=data.follower&style=flat&logo=bilibili&logoColor=white&label=bilibili%20fans&labelColor=%23F37697">
     <img src="https://img.shields.io/badge/Language-Python-blue" alt="">
     <img src="https://img.shields.io/badge/OS-Windows-blue" alt="">
-    <img alt="" src="https://img.shields.io/badge/version-0.2.0-yellow">
+    <img alt="" src="https://img.shields.io/badge/version-b0.1.0-yellow">
 </p>
 
 ## 目录
