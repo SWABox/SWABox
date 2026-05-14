@@ -2,5 +2,6 @@
 name = "SWABox"
 version = "b0.1.0"
 description = [
-    'PySide6'
+    'PySide6',
+    'logging'
 ]

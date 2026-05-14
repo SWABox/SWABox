@@ -30,11 +30,13 @@ git clone https://github.com/liyunhan177/SWABox.git
 ### 2. 安装所欲依赖
 ```bash
 # PySide6 GUI库
-pip install PySide6 -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install PySide6
 
+# logging 日志库
+pip install logging
 
 # 设计工具
-pip install pyqt5-tools -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install pyqt5-tools
 ```
 ### 3. 运行项目
 ```bash
@@ -81,5 +83,5 @@ python src/main.py
 
 #### __项目发起人语法欠佳 望理解__
 #### __该项目仅为学习交流所用，请勿用于非法用途__
-#### __项目内部分功能由AI生成__
+#### __项目内部分功能由AI生成,望知悉__
 <a href="https://ys-api.mihoyo.com/event/download_porter/link/ys_cn/official/pc_backup316">千万别点</a>
