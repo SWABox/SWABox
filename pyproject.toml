@@ -1,5 +1,5 @@
 [project]
-name = "SMTBox"
+name = "SWABox"
 version = "b0.1.0"
 description = [
     'PySide6'
