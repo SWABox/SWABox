@@ -5,7 +5,7 @@
 ### 环境搭建
 
 #### 1. 系统要求
-- **操作系统**: Windows 10/11
+- **操作系统**: Windows 10/11 （Mac OS 与 Linux未测试）
 - **Python 版本**: Python 3.8+
 - **必需依赖**: 
   - PySide6
@@ -82,7 +82,7 @@ def __init__(self):
     super(MainWindow, self).__init__()
     self.setupUi(self)
     self.settings.clicked.connect(self.SettingsBtnClicked)
-    self.OfTool.clicked.connect(self.NewToolBtnClicked)  # 添加新按钮
+    self.OfTool.clicked.connect(self.OfToolBtnClicked)  # 添加新按钮
 ```
 
 ---
@@ -195,7 +195,7 @@ def launch_tool(tool_path):
 
 # 使用示例
 def OfToolBtnClicked(self):
-    tool_path = "tools/optimization.exe"
+    tool_path = "Tool/360/360FAK/Superkiller.exe"
     launch_tool(tool_path)
 ```
 
@@ -312,7 +312,7 @@ db.close()
 - [ ] 窗口大小固定
 
 #### 功能测试
-- [ ] 设置按钮打开设置对话框
+- [ ] 点击按钮打开对应窗口
 - [ ] 退出按钮关闭窗口
 - [ ] 各工具按钮响应正常
 - [ ] 信号槽连接正确
@@ -427,8 +427,9 @@ a = Analysis(
         ('res/UI/*.ui', 'res/UI'),
         ('res/img/*', 'res/img'),
         ('lib/page/*.py', 'lib/page'),
+        ('...', '...'),
     ],
-    hiddenimports=['lib.page.MainPage', 'lib.page.Settings'],
+    hiddenimports=['lib.page.MainPage', 'lib.page.Settings', "..."],
     # ... 其他配置
 )
 ```
@@ -548,8 +549,6 @@ pyside6-uic res/UI/MainPage.ui -o lib/page/MainPage.py
 
 ### 代码风格
 - 遵循 PEP 8 规范
-- 使用 4 空格缩进
-- 行宽不超过 100 字符
 - 函数和类添加文档字符串
 
 ### Git 提交规范
@@ -568,6 +567,9 @@ git commit -m "refactor: 优化 UI 加载逻辑"
 
 # 性能优化
 git commit -m "perf: 使用缓存提升启动速度"
+
+# 其他
+git commit -m "oth: 添加.gitignore 文件忽略日志文件"
 ```
 
 ### PR 提交流程
@@ -595,4 +597,4 @@ git commit -m "perf: 使用缓存提升启动速度"
 
 ---
 
-*最后更新时间：2026 年 5 月 14 日*
+*最后更新时间：2026 年 5 月 15 日*

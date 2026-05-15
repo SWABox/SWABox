@@ -5,7 +5,7 @@
     <img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.bilibili.com%2Fx%2Frelation%2Fstat%3Fvmid%3D571556798&query=data.follower&style=flat&logo=bilibili&logoColor=white&label=bilibili%20fans&labelColor=%23F37697">
     <img src="https://img.shields.io/badge/Language-Python-blue" alt="">
     <img src="https://img.shields.io/badge/OS-Windows-blue" alt="">
-    <img alt="" src="https://img.shields.io/badge/version-b0.2.0-yellow">
+    <img alt="" src="https://img.shields.io/badge/version-b0.2.1-yellow">
 </p>
 
 ## 目录
@@ -84,6 +84,8 @@ python src/main.py
 
 ##  参与贡献
 #### __欢迎提交 Issue 和 Pull Request 来改进这个项目！__
+### Issus 模板：[issues模板](doc/PROJECT_DOCUMENTATION.md#Issue模板)
+
 ##  未来规划
 - [x] 工具类型的罗列
 - [ ] 实现运行日志生成

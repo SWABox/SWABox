@@ -1,0 +1,555 @@
+[DE]-o 1
+[IIIH] XXXXXXX
+[ICR] OOKK
+[ICR] id=38b902d1199be8595b2041ccbd6c4aa14640c8b62b50
+[safeexit]4
+[RemoveTask]DeleteTask Failed!
+[NU] 
+	|       ACP 936
+	|     OEMCP 936
+	|     MACCP 10008
+	|   Default 0804
+	| (Default) 00000804
+	|   Default 0804
+*********  END  *********
+[term]D:\360极速浏览器下载\SuperKillller.exe!00132338, id=1
+[term] term pid
+[term]X:\windows\System32\KERNELBASE.dll!00104d59, id=3
+[term] termNT pid
+[ICR] !ddd
+RPT:IF3  
+E:\安全\360急救工具箱\fix\360base64.dll
+[C] -NB
+[C] -NS
+[C] -MK
+[SKI] B 2
+[SKI] C 2
+
+
+*********  START  *********
+OS VER: 10.0.26100.256.1.0 
+LANGUAGE: 简体中文版 
+BIT: 64 BOOT: Normal boot 0
+RPT:IF4_2
+RPT:IF4_2a
+CID: , 
+E:\安全\360急救工具箱\SuperKillller.exe 	 [5.1.64.1287]
+[NU] 
+	|       ACP 936
+	|     OEMCP 936
+	|     MACCP 10008
+	|   Default 0804
+	| (Default) 00000804
+	|   Default 0804
+[UER]-100
+[DoSpecialRun] CB
+[BDO] IsWin10Rs1OrLater
+[BDO] ResetEngine Exist
+[BDO] ResetEngine's Dependency Not Exist
+[DoSpecialRun] GB
+[DHS] FAIL!
+[WINET] OK!
+[DHS] FAIL!
+[WINET] OK!
+[Update] E:\安全\360急救工具箱\fix\360NetBase64.dll
+[CFD] $
+[DHS] FAIL!
+[WINET] OK!
+[Update] E:\安全\360急救工具箱\fix\CQhCltHttpW64.dll
+[DHS] FAIL!
+[CQH] OK!
+[Update] E:\安全\360急救工具箱\fix\AntiWriteBack64.dll
+[DHS] FAIL!
+[CQH] OK!
+[Update] E:\安全\360急救工具箱\fix\BFsAndReg64.dll
+[REBOOT] "E:\安全\360急救工具箱\SuperKillller.exe" /FROM=[2102] /UPDATE="11700" ,,tag=1
+[safeexit]25
+[RemoveTask]DeleteTask Failed!
+[ICR] !ddd
+RPT:IF3  
+E:\安全\360急救工具箱\fix\360base64.dll
+[NU] 
+	|       ACP 936
+	|     OEMCP 936
+	|     MACCP 10008
+	|   Default 0804
+	| (Default) 00000804
+	|   Default 0804
+*********  END  *********
+[C] -NB
+[C] -NS
+[C] -MK
+[SKI] B 2
+[SKI] C 2
+[VER] 10.0.26100.7920
+[IGDR+]
+
+
+*********  START  *********
+OS VER: 10.0.26100.256.1.0 
+LANGUAGE: 简体中文版 
+BIT: 64 BOOT: Normal boot 0
+RPT:IF4_2
+RPT:IF4_2a
+CID: , 
+E:\安全\360急救工具箱\SuperKillller.exe 	 [5.1.64.1287]
+[NU] 
+	|       ACP 936
+	|     OEMCP 936
+	|     MACCP 10008
+	|   Default 0804
+	| (Default) 00000804
+	|   Default 0804
+[UER]-100
+[DoSpecialRun] CB
+[BDO] IsWin10Rs1OrLater
+[BDO] ResetEngine Exist
+[BDO] ResetEngine's Dependency Not Exist
+[DoSpecialRun] GB
+[DHS] OK!
+[CFD] $
+[SDP] ONLY
+Local time: 2026-03-29 22:40:50 SUPERKILLER...
+Local time: 2026-03-29 22:40:50 FS RE ...
+[REBOOT] "E:\安全\360急救工具箱\SuperKillller.exe" /FROM=[2102] /UPDATE="7036" ,,tag=2
+[safeexit]25
+[PFP] - 1
+[RemoveTask]DeleteTask Failed!
+[ICR] !ddd
+RPT:IF3  
+E:\安全\360急救工具箱\fix\360base64.dll
+[NU] 
+	|       ACP 936
+	|     OEMCP 936
+	|     MACCP 10008
+	|   Default 0804
+	| (Default) 00000804
+	|   Default 0804
+*********  END  *********
+[C] -NB
+[C] -NS
+[C] -MK
+[SKI] B 2
+[SKI] C 2
+[VER] 10.0.26100.7920
+[IGDR+]
+
+
+*********  START  *********
+OS VER: 10.0.26100.256.1.0 
+LANGUAGE: 简体中文版 
+BIT: 64 BOOT: Normal boot 0
+RPT:IF4_2
+RPT:IF4_2a
+CID: , 
+E:\安全\360急救工具箱\SuperKillller.exe 	 [5.1.64.1287]
+[NU] 
+	|       ACP 936
+	|     OEMCP 936
+	|     MACCP 10008
+	|   Default 0804
+	| (Default) 00000804
+	|   Default 0804
+[UER]-100
+[DoSpecialRun] CB
+[BDO] IsWin10Rs1OrLater
+[BDO] ResetEngine Exist
+[BDO] ResetEngine's Dependency Not Exist
+[DoSpecialRun] GB
+[DHS] OK!
+[CFD] $
+[SDP] ONLY
+Local time: 2026-03-29 22:40:59 SUPERKILLER...
+Local time: 2026-03-29 22:40:59 I+
+[FS] not set
+[CBFR] clr=2 
+[BCY] 001
+Local time: 2026-03-29 22:40:59 SHOW
+[HB] H
+[HB] -O
+[CBFR] Init 2 0
+[CBFR] MT 
+[CBFR] Init 2 0
+[CBFR] MMX
+[SV] -- 1
+[CBFR] ret 0
+[CBFR] SBD =0
+[IIT]SBD NO!
+
+[CBP] enter
+[CBP] r5
+[CBP] r6
+[CBP] r7
+[WYN] Failed
+[IIT] -E eq
+[IIT] not rs bpi
+[IIT] bpi end
+[IIT] -p1
+[IIT] -p2
+[IIT] -p3
+[IIT] ckds=0
+[IIT] -p4
+[IIT] -p5
+[IIT] -p6
+[IIT] -p6-2
+[IIT] -sss1
+[IIT][LOB] no need
+[IIT] -sss2
+[IIT] -sss3
+[IIT] -sss4
+Local time: 2026-03-29 22:41:06 F+
+Local time: 2026-03-29 22:41:06 F@
+Local time: 2026-03-29 22:41:06 C+
+Local time: 2026-03-29 22:41:06 C*
+[KCD] 000
+[IIT] -sss5
+[IT] end
+[IT] cphk
+Local time: 2026-03-29 22:41:13 CAntiRootkitHelper::CmObjectHookCmParseKey: Please check the version of dsark.sys
+[XZS] -ED
+[IT] cphk2
+[IT] cphk4
+Local time: 2026-03-29 22:41:13 I-
+Local time: 2026-03-29 22:41:13 C-
+Local time: 2026-03-29 22:41:13 PREPARE
+Local time: 2026-03-29 22:41:13 P$
+RPT:IF4
+RPT:IF2
+Local time: 2026-03-29 22:41:13 D
+[XT] !@
+[DHS] OK!
+Local time: 2026-03-29 22:41:14 F$
+Local time: 2026-03-29 22:41:14 F#
+Local time: 2026-03-29 22:41:14 F-
+[Update] 360verify64.dll 
+[DHS] OK!
+[Update] AutorunFixer64.dll 
+[DHS] OK!
+[Update] AntiDllHiJack64.dll 
+[DHS] OK!
+[Update] 360conf64.dll 
+[DHS] OK!
+[Update] 360base64.dll 
+[DHS] OK!
+[Update] deepscan64.dll 
+[DHS] OK!
+[Update] cloudcom264.dll 
+[DHS] OK!
+[Update] cloudsec364.dll 
+[DHS] OK!
+[Update] PopSoftEng64.dll 
+[DHS] OK!
+[Update] heavygate64.dll 
+[DHS] OK!
+[Update] 360MalwareSection64.dll 
+[DHS] OK!
+[Update] SeclutionCallBack64.dll 
+[DHS] OK!
+[Update] 360ave.def 
+[DHS] OK!
+[Update] 10003 error: 0 AVEI.dll 
+[DHS] OK!
+[Update] 10003 error: 0 AVEngine.dll 
+[DHS] OK!
+[Update] sysfilerepS64.dll 
+[DHS] OK!
+[Update] dynlenv64.dll 
+[DHS] OK!
+[Update] 360Util64.dll 
+[DHS] OK!
+[Update] WiFiSafe64.dll 
+[DHS] OK!
+[Update] dsns.dat 
+[DHS] OK!
+[Update] wpz.dat 
+[DHS] OK!
+[Update] mcs64.dat 
+uninst sksrv in
+uninst sksrv exist ret, err=-1
+[safeexit]49
+[PFP] - 1
+[RemoveTask]DeleteTask Failed!
+[NU] 
+	|       ACP 936
+	|     OEMCP 936
+	|     MACCP 10008
+	|   Default 0804
+	| (Default) 00000804
+	|   Default 0804
+*********  END  *********
+[ICR] !ddd
+[C] -NB
+[C] -NS
+[C] -MK
+[VER] 10.0.26100.8328
+[IGDR+]
+
+
+*********  START  *********
+OS VER: 10.0.26100.256.1.0 
+LANGUAGE: 简体中文版 
+BIT: 64 BOOT: Normal boot 0
+CID: 66ff38210cd0a8837bf83752547b8d38, 38b902d1199be8595b2041ccbd6c4aa14640c8b62b50
+D:\project\SWABox\Tool\360\360FAK\Superkiller.exe 	 [5.1.64.1287]
+[NU] 
+	|       ACP 936
+	|     OEMCP 936
+	|     MACCP 10008
+	|   Default 0804
+	| (Default) 00000804
+	|   Default 0804
+[UER]0
+[DoSpecialRun] CB
+[BDO] IsWin10Rs1OrLater
+[BDO] ResetEngine Exist
+[BDO] ResetEngine's Dependency Not Exist
+[DoSpecialRun] GB
+[DHS] OK!
+[CFD] $
+[SDP] ONLY
+Local time: 2026-05-15 16:11:07 SUPERKILLER...
+Local time: 2026-05-15 16:11:07 FS RE ...
+[REBOOT] "D:\project\SWABox\Tool\360\360FAK\Superkiller.exe" /FROM=[2102] /UPDATE="16348" ,,tag=2
+[safeexit]25
+[PFP] - 1
+[RemoveTask]DeleteTask Failed!
+[ICR] !ddd
+[NU] 
+	|       ACP 936
+	|     OEMCP 936
+	|     MACCP 10008
+	|   Default 0804
+	| (Default) 00000804
+	|   Default 0804
+*********  END  *********
+[C] -NB
+[C] -NS
+[C] -MK
+[VER] 10.0.26100.8328
+[IGDR+]
+
+
+*********  START  *********
+OS VER: 10.0.26100.256.1.0 
+LANGUAGE: 简体中文版 
+BIT: 64 BOOT: Normal boot 0
+CID: 66ff38210cd0a8837bf83752547b8d38, 38b902d1199be8595b2041ccbd6c4aa14640c8b62b50
+D:\project\SWABox\Tool\360\360FAK\Superkiller.exe 	 [5.1.64.1287]
+[NU] 
+	|       ACP 936
+	|     OEMCP 936
+	|     MACCP 10008
+	|   Default 0804
+	| (Default) 00000804
+	|   Default 0804
+[UER]0
+[DoSpecialRun] CB
+[BDO] IsWin10Rs1OrLater
+[BDO] ResetEngine Exist
+[BDO] ResetEngine's Dependency Not Exist
+[DoSpecialRun] GB
+[DHS] OK!
+[CFD] $
+[SDP] ONLY
+Local time: 2026-05-15 16:11:10 SUPERKILLER...
+Local time: 2026-05-15 16:11:10 I+
+[FS] not set
+[CBFR] clr=2 
+[BCY] 001
+Local time: 2026-05-15 16:11:10 SHOW
+[HB] H
+[HB] -O
+[CBFR] Init 2 0
+[CBFR] MT 
+[CBFR] Init 2 0
+[CBFR] MMX
+[SV] -- 1
+[CBFR] ret 0
+[CBFR] SBD =0
+[IIT]SBD NO!
+
+[CBP] enter
+[CBP] r5
+[CBP] r6
+[CBP] r7
+[WYN] Failed
+[IIT] -E eq
+[IIT] not rs bpi
+[IIT] bpi end
+[IIT] -p1
+[IIT] -p2
+[IIT] -p3
+[IIT] ckds=1
+[IIT] -p4
+[IIT] -p5
+[IIT] -p6
+[IIT] -p6-1
+[PLE] enter
+[PLE] a0
+[PLE] a1
+[PLE] okf D:\project\SWABox\Tool\360\360FAK\fix\cloudsec364.dll
+[PLE] okf D:\project\SWABox\Tool\360\360FAK\fix\deepscan64.dll
+[PLE] okf D:\project\SWABox\Tool\360\360FAK\fix\cloudcom264.dll
+[PLE] a3
+[CDEE] enter
+[ICC] enter
+[ICC] a2
+[ICC] a3
+[ICC] a4
+[ICC] a5
+[ICC] a6
+[ICC] a7
+[ICC] a8
+[ICSE] enter
+[ICSE] a2
+[ICSE] a3
+[ICSE] a4
+[ICSE] a5
+[ICSE] b2
+[ICSE] b3
+[ICSE] b4
+[ICSE] b5
+[ICSE] b6
+[ICSE] b7
+[ICSE] b8
+[ICSE] b9
+[ICSE] b10
+[ICSE] b11
+[ICSE] b12
+[ICSE] b13
+[ICSE] b14
+[ICSE] c1
+[ICSE] c2
+[ICSE] c3
+[ICSE] c4
+[ICSE] c5
+[ICSE] c6
+[ICSE] c7
+[ICSE] 2 -528219756
+[ICSE] c8
+[CDEE] a3
+[PLE] fail
+[SE] Load Error!
+[IIT] -sss1
+[IFT] NO S-S D:\project\SWABox\Tool\360\360FAK\fix\dynlenvSK64.dll
+[LOL] 2
+[LOB] 2
+[IIT] -sss2
+[IIT] -sss3
+[IIT] -sss4
+Local time: 2026-05-15 16:11:13 C+
+Local time: 2026-05-15 16:11:13 F+
+Local time: 2026-05-15 16:11:13 F@
+[IIT] -sss5
+[IT] end
+[IT] cphk
+Local time: 2026-05-15 16:11:13 CAntiRootkitHelper::CmObjectHookCmParseKey: Please check the version of dsark.sys
+[XZS] -ED
+[IT] cphk2
+[IT] cphk4
+Local time: 2026-05-15 16:11:13 I-
+Local time: 2026-05-15 16:11:13 C-
+Local time: 2026-05-15 16:11:13 PREPARE
+Local time: 2026-05-15 16:11:13 P@
+Local time: 2026-05-15 16:11:13 [000035E0] S*
+Local time: 2026-05-15 16:11:13 [000035E0] S** 38 [10]
+Local time: 2026-05-15 16:11:13 P$
+Local time: 2026-05-15 16:11:13 D
+[XT] !@
+Local time: 2026-05-15 16:11:14 F$
+Local time: 2026-05-15 16:11:14 F#
+Local time: 2026-05-15 16:11:14 F-
+[DHS] OK!
+[Update] DSMain64.exe 
+[DHS] OK!
+[Update] 360CSVMDP64.dll 
+[DHS] OK!
+[Update] fvmdp.dat 
+[DHS] OK!
+[Update] dsbs.dat 
+[DHS] OK!
+[Update] dsws.dat 
+[DHS] OK!
+[Update] SKL.DAT 
+[DHS] OK!
+[Update] qex64.dll 
+[DHS] OK!
+[Update] MacroDef.enc 
+[DHS] OK!
+[Update] patt.enc 
+[DHS] OK!
+[Update] qex.vdb.enc 
+[DHS] OK!
+[Update] 7z64.dll 
+[DHS] OK!
+[Update] dynallgkillers64.dll 
+[DHS] OK!
+[Update] dssysrepair64.dll 
+[DHS] OK!
+[Update] syscheck64.db 
+[DHS] OK!
+[Update] FixMBR.exe 
+[DHS] OK!
+[Update] dsconz.dat 
+[DHS] OK!
+[Update] csp64.dat 
+[DHS] OK!
+[Update] Agreement.Txt 
+[DHS] OK!
+[Update] dsr.dat 
+[DHS] OK!
+[Update] sc.con 
+[DHS] OK!
+[Update] ssr.dat 
+[DHS] OK!
+[Update] MbrDrvKiller.exe 
+[DHS] OK!
+[Update] BeepMBR64.sys 
+[DHS] OK!
+[Update] spfile64.sys 
+[DHS] OK!
+[Update] FirstAidBox.exe 
+[DHS] OK!
+[Update] 360ScreenCapture.exe 
+[DHS] OK!
+[Update] MBRUDisk.exe 
+[DHS] OK!
+[Update] kemon64.sys 
+[DHS] OK!
+[Update] CheckSM.dll 
+[DHS] OK!
+[Update] CheckSM.exe 
+[DHS] OK!
+[Update] QshieldZ.dat 
+[DHS] OK!
+[Update] QshieldZh.dat 
+[DHS] OK!
+[Update] dynlAR64.dll 
+[DHS] OK!
+[Update] dynlenvSK64.dll 
+[DHS] OK!
+[Update] DumpUpload.exe 
+[DHS] OK!
+[Update] 360tdws64.sys 
+[DHS] OK!
+[Update] capi64.dll 
+[DHS] OK!
+[Update] capi.dll 
+[DHS] OK!
+[Update] network.dat 
+[Update] 10002 error: 0 DsArk64.dll 
+[DHS] OK!
+[Update] Update.dat 
+uninst sksrv in
+uninst sksrv err2
+[safeexit]49
+[PFP] - 1
+[RemoveTask]DeleteTask Failed!
+[NU] 
+	|       ACP 936
+	|     OEMCP 936
+	|     MACCP 10008
+	|   Default 0804
+	| (Default) 00000804
+	|   Default 0804
+*********  END  *********
