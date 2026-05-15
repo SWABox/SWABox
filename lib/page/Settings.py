@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'Sittings.ui'
+## Form generated from reading UI file 'SittingsFCFptv.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.11.1
 ##
@@ -17,6 +17,7 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QPalette, QPixmap, QRadialGradient, QTransform)
 from PySide6.QtWidgets import (QApplication, QLabel, QSizePolicy, QTabWidget,
     QWidget)
+from . import main_rc
 
 class Ui_settings(object):
     def setupUi(self, settings):
@@ -24,7 +25,7 @@ class Ui_settings(object):
             settings.setObjectName(u"settings")
         settings.resize(424, 295)
         icon = QIcon()
-        icon.addFile(u"../res/img/logo.png", QSize(), QIcon.Mode.Normal, QIcon.State.Off)
+        icon.addFile(u":/logo.png", QSize(), QIcon.Mode.Normal, QIcon.State.Off)
         settings.setWindowIcon(icon)
         self.tabWidget = QTabWidget(settings)
         self.tabWidget.setObjectName(u"tabWidget")

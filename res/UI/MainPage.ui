@@ -26,8 +26,8 @@
    <string>电教委工具箱</string>
   </property>
   <property name="windowIcon">
-   <iconset>
-    <normaloff>../img/logo.png</normaloff>../img/logo.png</iconset>
+   <iconset resource="../../Static/Q_Img/main.qrc">
+    <normaloff>:/logo.png</normaloff>:/logo.png</iconset>
   </property>
   <widget class="QLabel" name="icon">
    <property name="enabled">
@@ -45,7 +45,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../img/logo.png</pixmap>
+    <pixmap resource="../../Static/Q_Img/main.qrc">:/logo.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
@@ -185,7 +185,9 @@
    </property>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="../../Static/Q_Img/main.qrc"/>
+ </resources>
  <connections>
   <connection>
    <sender>exit</sender>

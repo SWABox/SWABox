@@ -14,8 +14,8 @@
    <string>设置</string>
   </property>
   <property name="windowIcon">
-   <iconset>
-    <normaloff>../img/logo.png</normaloff>../img/logo.png</iconset>
+   <iconset resource="../../Static/Q_Img/main.qrc">
+    <normaloff>:/logo.png</normaloff>:/logo.png</iconset>
   </property>
   <widget class="QTabWidget" name="tabWidget">
    <property name="geometry">
@@ -98,6 +98,8 @@
    </widget>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="../../Static/Q_Img/main.qrc"/>
+ </resources>
  <connections/>
 </ui>

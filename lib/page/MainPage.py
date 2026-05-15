@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'MainPage.ui'
+## Form generated from reading UI file 'MainPageSHbbGZ.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.11.1
 ##
@@ -17,6 +17,7 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QPalette, QPixmap, QRadialGradient, QTransform)
 from PySide6.QtWidgets import (QApplication, QLabel, QPushButton, QSizePolicy,
     QWidget)
+from . import main_rc
 
 class Ui_MainPage(object):
     def setupUi(self, MainPage):
@@ -26,13 +27,13 @@ class Ui_MainPage(object):
         MainPage.setMinimumSize(QSize(413, 356))
         MainPage.setMaximumSize(QSize(413, 356))
         icon1 = QIcon()
-        icon1.addFile(u"../res/img/logo.png", QSize(), QIcon.Mode.Normal, QIcon.State.Off)
+        icon1.addFile(u":/logo.png", QSize(), QIcon.Mode.Normal, QIcon.State.Off)
         MainPage.setWindowIcon(icon1)
         self.icon = QLabel(MainPage)
         self.icon.setObjectName(u"icon")
         self.icon.setEnabled(True)
         self.icon.setGeometry(QRect(40, 30, 121, 121))
-        self.icon.setPixmap(QPixmap(u"../res/img/logo.png"))
+        self.icon.setPixmap(QPixmap(u":/logo.png"))
         self.icon.setScaledContents(True)
         self.title = QLabel(MainPage)
         self.title.setObjectName(u"title")

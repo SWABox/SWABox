@@ -327,22 +327,24 @@ db.close()
 ```python
 import unittest
 from PySide6.QtWidgets import QApplication
-from src.main import MainWindow
+from main import MainWindow
+
 
 class TestMainWindow(unittest.TestCase):
-    
+
     def setUp(self):
         self.app = QApplication([])
         self.window = MainWindow()
-    
+
     def test_window_created(self):
         """测试窗口创建"""
         self.assertIsNotNone(self.window)
-    
+
     def test_ui_setup(self):
         """测试 UI 初始化"""
         self.assertTrue(hasattr(self.window, 'settings'))
         self.assertTrue(hasattr(self.window, 'exit'))
+
 
 if __name__ == '__main__':
     unittest.main()
