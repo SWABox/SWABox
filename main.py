@@ -1,5 +1,6 @@
 from PySide6.QtWidgets import QApplication, QMainWindow, QDialog
 from PySide6.QtCore import Qt
+import webbrowser as web
 from lib.page import *
 from lib.package import *
 import sys
@@ -15,6 +16,7 @@ class MainWindow(QMainWindow, MainPage.Ui_MainPage):
         self.settings_dialog = QDialog()
         self.settings_ui = Settings.Ui_settings()
         self.settings_ui.setupUi(self.settings_dialog)
+        self.settings_ui.GoIssue.clicked.connect(self.GoOssierBtnClicked)
         self.settings_dialog.show()
 
     def EMGToolBtnClicked(self):
@@ -26,6 +28,9 @@ class MainWindow(QMainWindow, MainPage.Ui_MainPage):
 
     def GoExplorBtnClicked(self):
         OpenExplorer.open_tool_folder()
+
+    def GoOssierBtnClicked(self):
+        web.open("https://github.com/liyunhan177/SWABox/issues/new")
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)

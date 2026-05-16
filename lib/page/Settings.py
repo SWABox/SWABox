@@ -16,7 +16,7 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QImage, QKeySequence, QLinearGradient, QPainter,
     QPalette, QPixmap, QRadialGradient, QTransform)
 from PySide6.QtWidgets import (QApplication, QLabel, QSizePolicy, QTabWidget,
-    QWidget)
+    QWidget, QCommandLinkButton)
 from . import main_rc
 
 class Ui_settings(object):
@@ -50,6 +50,18 @@ class Ui_settings(object):
         self.label_4 = QLabel(self.About)
         self.label_4.setObjectName(u"label_4")
         self.label_4.setGeometry(QRect(160, 60, 241, 41))
+        self.label_5 = QLabel(self.About)
+        self.label_5.setObjectName(u"label_5")
+        self.label_5.setGeometry(QRect(40, 200, 131, 41))
+        self.GoIssue = QCommandLinkButton(self.About)
+        self.GoIssue.setObjectName(u"GoIssue")
+        self.GoIssue.setGeometry(QRect(170, 200, 181, 41))
+        self.label_6 = QLabel(self.About)
+        self.label_6.setObjectName(u"label_6")
+        self.label_6.setGeometry(QRect(160, 100, 241, 41))
+        self.label_7 = QLabel(self.About)
+        self.label_7.setObjectName(u"label_7")
+        self.label_7.setGeometry(QRect(20, 100, 131, 41))
         self.tabWidget.addTab(self.About, "")
 
         self.retranslateUi(settings)
@@ -68,6 +80,12 @@ class Ui_settings(object):
         self.label_2.setText(QCoreApplication.translate("settings", u"<html><head/><body><p><span style=\" font-size:16pt;\">A.R.O.N.A (liyunhan177)</span></p></body></html>", None))
         self.label_3.setText(QCoreApplication.translate("settings", u"<html><head/><body><p align=\"right\"><span style=\" font-size:16pt; font-weight:700;\">\u9879\u76ee\u540d\u79f0\uff1a</span></p></body></html>", None))
         self.label_4.setText(QCoreApplication.translate("settings", u"<html><head/><body><p><span style=\" font-size:16pt;\">\u7535\u6559\u59d4\u5de5\u5177\u7bb1\uff08SWA\uff09</span></p></body></html>", None))
+        self.label_5.setText(QCoreApplication.translate("settings", u"<html><head/><body><p align=\"right\"><span style=\" font-size:14pt;\">\u53d1\u73b0\u4e86Bug\uff1f</span></p></body></html>", None))
+        self.GoIssue.setText(QCoreApplication.translate("settings", u"\u524d\u5f80\u63d0\u4ea4Issue", None))
+        self.label_6.setText(QCoreApplication.translate("settings", u"<html><head/><body><p><span style=\" font-size:16pt;\">PySide6</span></p></body></html>", None))
+        self.label_7.setText(QCoreApplication.translate("settings", u"<html><head/><body><p align=\"right\"><span style=\" font-size:16pt; font-weight:700;\">UI\u5e93\uff1a</span></p></body></html>", None))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.About), QCoreApplication.translate("settings", u"\u5173\u4e8e", None))
     # retranslateUi
+
+
 
