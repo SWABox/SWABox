@@ -2,7 +2,10 @@
     <qresource>
         <file>./logo.png</file>
     </qresource>
-    <qresource prefix="/">
+    <qresource>
         <file>./Main_Page.png</file>
+    </qresource>
+    <qresource>
+        <file>./logo.ico</file>
     </qresource>
 </RCC>

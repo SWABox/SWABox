@@ -1,3 +1,3 @@
-from . import OpenExplorer
+from . import OpenExplorer, WifiDet
 
-__all__ = ['OpenExplorer']
+__all__ = ['OpenExplorer', "WifiDet"]

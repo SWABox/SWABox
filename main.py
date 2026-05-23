@@ -1,4 +1,5 @@
-from PySide6.QtWidgets import QApplication, QMainWindow, QDialog
+from PySide6.QtWidgets import (QApplication, QMainWindow,
+                               QDialog, QMessageBox)
 from PySide6.QtCore import Qt
 import webbrowser as web
 from lib.page import *
@@ -34,6 +35,16 @@ class MainWindow(QMainWindow, MainPage.Ui_MainPage):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
+
+    network = WifiDet.NetworkStatus()
+    wifi_states = network.is_internet_connected()
+
+    if not wifi_states:
+        print("No Internet Connection.")
+        QMessageBox.critical(None, "无网络连接", "将无法使用下载与网页跳转功能\n仅可使用本地功能\n请确保您的设备处于联网状态")
+    else:
+        print("Internet Connected.")
+
     window = MainWindow()
     window.show()
     sys.exit(app.exec())

@@ -1,7 +1,9 @@
 [project]
 name = "SWABox"
-version = "b0.2.1"
+version = "b0.3.0"
 description = [
     'PySide6',
-    'logging'
+    'logging',
+    'pywifi',
+    'comtypes'
 ]
