@@ -30,7 +30,7 @@ SWABox/
 │   └── sound/               # 音频资源
 ├── data/                     # 数据文件
 ├── log/                      # 日志文件
-├── doc/                      # 文档目录
+├── docs/                      # 文档目录
 ├── Static/                    # 静态文件
 ├── pyproject.toml           # 项目配置文件
 ├── LICENSE                  # 许可协议
@@ -41,7 +41,7 @@ SWABox/
 ##  安装指南
 ### 1. 克隆项目
 ```bash
-git clone https://github.com/liyunhan177/SWABox.git
+git clone https://github.com/SWABox/SWABox.git
 ```
 ### 2. 安装所欲依赖
 ```bash
