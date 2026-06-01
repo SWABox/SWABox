@@ -1,12 +1,17 @@
-# SWABox
-#### 一款专为电教委打造的工具箱
-<p>
-    <img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dgithub%26queryKey%3Dliyunhan177&query=%24.data.totalSubs&suffix=%20followers&label=GitHub&color=262626">
-    <img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.bilibili.com%2Fx%2Frelation%2Fstat%3Fvmid%3D571556798&query=data.follower&style=flat&logo=bilibili&logoColor=white&label=bilibili%20fans&labelColor=%23F37697">
-    <img src="https://img.shields.io/badge/Language-Python-blue" alt="">
-    <img src="https://img.shields.io/badge/OS-Windows-blue" alt="">
-    <img alt="" src="https://img.shields.io/badge/version-b0.3.0-yellow">
-</p>
+<div align="center">
+    <img src="res/img/logo.png" alt="SWABox Logo" width="150px" style="position: relative; top: 50px;">
+    <h1>SWABox</h1>
+    <h4>一款专为电教委打造的工具箱</h4>
+    <p>
+        <img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dgithub%26queryKey%3Dliyunhan177&query=%24.data.totalSubs&suffix=%20followers&label=GitHub&color=262626">
+        <img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.bilibili.com%2Fx%2Frelation%2Fstat%3Fvmid%3D571556798&query=data.follower&style=flat&logo=bilibili&logoColor=white&label=bilibili%20fans&labelColor=%23F37697">
+        <img src="https://img.shields.io/badge/Language-Python-blue" alt="">
+        <img src="https://img.shields.io/badge/OS-Windows-blue" alt="">
+        <img alt="" src="https://img.shields.io/badge/version-b0.3.0-yellow">
+    </p>
+    <a href="docs/index.md">更多文档</a>
+</div>
+
 
 ## 目录
 
