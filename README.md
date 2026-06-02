@@ -1,15 +1,18 @@
 <div align="center">
-    <img src="res/img/logo.png" alt="SWABox Logo" width="150px" style="position: relative; top: 50px;">
-    <h1>SWABox</h1>
-    <h4>一款专为电教委打造的工具箱</h4>
-    <p>
-        <img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dgithub%26queryKey%3Dliyunhan177&query=%24.data.totalSubs&suffix=%20followers&label=GitHub&color=262626">
-        <img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.bilibili.com%2Fx%2Frelation%2Fstat%3Fvmid%3D571556798&query=data.follower&style=flat&logo=bilibili&logoColor=white&label=bilibili%20fans&labelColor=%23F37697">
-        <img src="https://img.shields.io/badge/Language-Python-blue" alt="">
-        <img src="https://img.shields.io/badge/OS-Windows-blue" alt="">
-        <img alt="" src="https://img.shields.io/badge/version-b0.3.0-yellow">
-    </p>
-    <a href="docs/index.md">更多文档</a>
+
+# SWABox
+
+[![Stars](https://img.shields.io/github/stars/SWABox/SWABox?label=Stars)](https://github.com/SWABox/SWABox)
+[![下载量](https://img.shields.io/github/downloads/SWABox/SWABox/total?style=social&label=下载量&logo=github)](https://github.com/SWABox/SWABox/releases/latest)
+![Language-Python](https://img.shields.io/badge/语言-Python-blue)
+![OS-Windows](https://img.shields.io/badge/适用系统-Windows-blue)
+[![正式版 Release](https://img.shields.io/github/v/release/SWABox/SWABox?style=flat-square&color=%22c55d&label=正式版)](https://github.com/SWABox/SWABox/releases/latest)
+
+[🌐 官方网站](https://swabox.cc.cd/) ｜ [📚 项目文档](docs/index.md)
+
+SWABox 是一款为学校电教委即智能白班管理员提供工具下载的使用工具箱 <br/>
+本软件中文译名可称为电教委工具箱
+
 </div>
 
 
