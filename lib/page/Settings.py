@@ -15,9 +15,10 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QFont, QFontDatabase, QGradient, QIcon,
     QImage, QKeySequence, QLinearGradient, QPainter,
     QPalette, QPixmap, QRadialGradient, QTransform)
-from PySide6.QtWidgets import (QApplication, QLabel, QSizePolicy, QTabWidget,
-    QWidget, QCommandLinkButton)
+from PySide6.QtWidgets import (QApplication, QCommandLinkButton, QLabel,
+    QLineEdit, QSizePolicy, QTabWidget, QToolButton, QWidget)
 from . import main_rc
+
 
 class Ui_settings(object):
     def setupUi(self, settings):
@@ -38,6 +39,15 @@ class Ui_settings(object):
         self.tabWidget.setTabBarAutoHide(False)
         self.Foundation = QWidget()
         self.Foundation.setObjectName(u"Foundation")
+        self.label_8 = QLabel(self.Foundation)
+        self.label_8.setObjectName(u"label_8")
+        self.label_8.setGeometry(QRect(20, 10, 161, 41))
+        self.lineEdit = QLineEdit(self.Foundation)
+        self.lineEdit.setObjectName(u"lineEdit")
+        self.lineEdit.setGeometry(QRect(180, 21, 181, 25))
+        self.toolButton = QToolButton(self.Foundation)
+        self.toolButton.setObjectName(u"toolButton")
+        self.toolButton.setGeometry(QRect(370, 20, 31, 27))
         self.tabWidget.addTab(self.Foundation, "")
         self.Personalized = QWidget()
         self.Personalized.setObjectName(u"Personalized")
@@ -72,7 +82,7 @@ class Ui_settings(object):
 
         self.retranslateUi(settings)
 
-        self.tabWidget.setCurrentIndex(2)
+        self.tabWidget.setCurrentIndex(0)
 
 
         QMetaObject.connectSlotsByName(settings)
@@ -80,6 +90,8 @@ class Ui_settings(object):
 
     def retranslateUi(self, settings):
         settings.setWindowTitle(QCoreApplication.translate("settings", u"\u8bbe\u7f6e", None))
+        self.label_8.setText(QCoreApplication.translate("settings", u"<html><head/><body><p><span style=\" font-size:16pt;\">Tool\u6587\u4ef6\u5939\u4f4d\u7f6e</span></p></body></html>", None))
+        self.toolButton.setText(QCoreApplication.translate("settings", u"...", None))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.Foundation), QCoreApplication.translate("settings", u"\u57fa\u7840", None))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.Personalized), QCoreApplication.translate("settings", u"\u4e2a\u6027\u5316", None))
         self.label.setText(QCoreApplication.translate("settings", u"<html><head/><body><p align=\"right\"><span style=\" font-size:16pt; font-weight:700;\">\u9879\u76ee\u53d1\u8d77\u4eba\uff1a</span></p></body></html>", None))
@@ -92,6 +104,3 @@ class Ui_settings(object):
         self.label_7.setText(QCoreApplication.translate("settings", u"<html><head/><body><p align=\"right\"><span style=\" font-size:16pt; font-weight:700;\">UI\u5e93\uff1a</span></p></body></html>", None))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.About), QCoreApplication.translate("settings", u"\u5173\u4e8e", None))
     # retranslateUi
-
-
-

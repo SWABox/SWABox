@@ -24,6 +24,7 @@
 - `fix/xxx`：bug 修复
 - `docs/xxx`：文档更新
 - `refactor/xxx`：代码重构
+- `test/xxx`：测试相关
 
 ### Commit message 格式
 
@@ -40,7 +41,72 @@
 feat: 添加新的工具页面
 fix: 修复网络检测在防火墙环境下失败的问题
 docs: 更新用户手册中的安装说明
+test: 添加网络检测模块的单元测试
 ```
+
+### 提 PR 前的检查清单
+
+在提交 PR 之前，请确保完成以下检查：
+
+#### 代码质量
+- [ ] 代码遵循项目现有风格
+- [ ] 添加了必要的注释和文档字符串
+- [ ] 没有引入明显的性能问题
+- [ ] 没有硬编码的路径或配置
+
+#### 测试要求
+- [ ] 运行所有测试：`pytest` 确保所有现有测试通过
+- [ ] 为新功能编写测试：在 `tests/` 目录下添加相应的测试文件
+- [ ] 检查测试覆盖率：`pytest --cov=lib --cov-report=html` 确保覆盖率不会显著下降
+- [ ] 手动验证GUI功能：对于界面相关的改动，手动验证界面显示和交互
+
+#### 文档更新
+- [ ] 更新了相关的文档（如需要）
+- [ ] 添加了必要的注释说明
+- [ ] 更新了 README 或用户手册（如涉及用户可见的功能）
+
+#### 跨平台兼容性
+- [ ] 在 Windows 上测试通过
+- [ ] 如涉及跨平台功能，在 Mac/Linux 上验证（如无相应设备，请在 PR 中说明）
+
+### 测试编写指南
+
+#### 测试文件位置
+- 单元测试：`tests/test_*.py`
+- 集成测试：`tests/test_integration.py`
+- 功能测试：按模块分类，如 `tests/test_network.py`
+
+#### 测试标记使用
+```python
+import pytest
+
+@pytest.mark.unit
+def test_example():
+    """单元测试"""
+    pass
+
+@pytest.mark.integration
+def test_integration_example():
+    """集成测试"""
+    pass
+
+@pytest.mark.gui
+def test_gui_example():
+    """GUI测试"""
+    pass
+
+@pytest.mark.network
+def test_network_example():
+    """网络测试"""
+    pass
+```
+
+#### 测试覆盖率目标
+- 整体覆盖率目标：> 80%
+- 核心模块覆盖率目标：> 90%
+- UI模块覆盖率目标：> 70%
+
+详细测试说明请查看 [TESTING_GUIDE.md](../TESTING_GUIDE.md)。
 
 ## 代码风格
 

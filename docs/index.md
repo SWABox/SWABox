@@ -6,7 +6,9 @@
 
 - 想扩展功能看这个：[开发者指南](developer_guide.md) - 如何扩展插件、调用内部API、编写测试
 
-- 提 PR 前必读：[贡献指南](contributing.md) - 提 PR 的步骤、代码风格要求
+- 提 PR 前必读：[贡献指南](contributing.md) - 提 PR 的步骤、代码风格要求、测试要求
+
+- 测试框架说明：[测试指南](../TESTING_GUIDE.md) - pytest自动化测试框架使用方法、测试编写指南、覆盖率分析
 
 - 感谢名单：[特别鸣谢](acknowledgments.md) - 致谢列表
 

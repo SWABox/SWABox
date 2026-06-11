@@ -1,6 +1,11 @@
 import os
 import subprocess
 import sys
+import traceback
+
+from .log import get_logger
+
+logger = get_logger("OpenExplorer")
 
 
 def get_base_path():
@@ -29,13 +34,12 @@ def open_tool_folder():
 
         # 检查文件夹是否存在
         if not os.path.exists(tool_path):
-            print(f"错误：Tool文件夹不存在：{tool_path}")
-            # 尝试其他可能的路径
+            logger.warning("Tool文件夹不存在：%s", tool_path)
             alt_tool_path = os.path.join(os.path.dirname(sys.executable), 'Tool')
             if os.path.exists(alt_tool_path):
                 tool_path = alt_tool_path
             else:
-                print(f"错误：备选Tool文件夹也不存在：{alt_tool_path}")
+                logger.error("备选Tool文件夹也不存在：%s", alt_tool_path)
                 return False
 
         # 根据操作系统选择打开方式
@@ -52,9 +56,7 @@ def open_tool_folder():
         return True
 
     except Exception as e:
-        print(f"打开Tool文件夹失败：{str(e)}")
-        import traceback
-        traceback.print_exc()
+        logger.exception("打开Tool文件夹失败：%s", e)
         return False
 
 
